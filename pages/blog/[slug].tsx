@@ -27,7 +27,7 @@ export default function PostDetailPage({ post }: BlogPageProps) {
 		<Box>
 			<Seo
 				data={{
-					title: `${post.title} | Easy Frontend Blog`,
+					title: `${post.title} | Blog`,
 					description: post.description,
 					url: `${process.env.HOST_URL}/blog/${post.slug}`,
 					thumbnailUrl:

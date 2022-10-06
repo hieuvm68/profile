@@ -1,5 +1,6 @@
 import { Seo } from '@/components/common'
-import { HeroSection, RecentPosts, FeatureWorks } from '@/components/home'
+import { FeatureWorks, RecentPosts } from '@/components/home'
+import HeroSection from '@/components/home/hero'
 import { MainLayout } from '@/components/layout'
 import { NextPageWithLayout } from '@/models/common'
 import { Box } from '@mui/system'
@@ -9,7 +10,7 @@ const Home: NextPageWithLayout = () => {
 		<Box>
 			<Seo
 				data={{
-					title: 'NextJS Tutorials | Easy Frontend',
+					title: 'NextJS Profile',
 					description:
 						'Step by step tutorials to build a full CRUD website using NextJS for beginners',
 					url: 'https://learn-nextjs-fawn.vercel.app/',
